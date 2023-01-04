@@ -457,7 +457,7 @@ cc_library(
     visibility = ["//visibility:public"],
     deps = [
         ":asio",
-        "@openssl//:ssl",
+        "@openssl",
     ],
 )
 
